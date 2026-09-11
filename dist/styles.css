@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Baloo 2";
+  src: url("./assets/Baloo2-Variable.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400 800;
+  font-display: swap;
+}
+
 * { box-sizing: border-box; }
 
 html,
@@ -79,7 +87,7 @@ body {
   justify-content: center;
   gap: clamp(0.15rem, 0.8vw, 0.65rem);
   color: #20152b;
-  font-family: "JA Jayagiri Sans", "Arial Rounded MT Bold", "Trebuchet MS", Arial, sans-serif;
+  font-family: "Baloo 2", "Arial Rounded MT Bold", "Trebuchet MS", Arial, sans-serif;
   line-height: 1;
   pointer-events: none;
   transform: translateY(28%) scale(0.82);
